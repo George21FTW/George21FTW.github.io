@@ -18,9 +18,9 @@ html {
 }
 
 body {
-	background-color: #F7B32B;
-  font: 18px/1.4 $helvetica;
-  color: $darkGray;
+	background-image: url("https://www.google.co.uk/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjG07vwsbXdAhUSWsAKHRIYCzIQjRx6BAgBEAU&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Fabstract-background&psig=AOvVaw1Ey_L1IwyTVoWrvq7UZo9m&ust=1536839084031926");
+  font: 18px/1.4 Arial;
+  color: #ffffff;
 }
 
 .container {
@@ -28,18 +28,11 @@ body {
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
-  color: #2D1E2F
-}
-table {
-    width: 100%;
 }
 
-th {
-    height: 50px;
-}
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $darkerGray;
+  color: #ffffff;
   font-weight: bold;
 
   line-height: 1.7;
@@ -68,7 +61,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: $gray;
+  color: #ffffff;
 }
 
 p {
@@ -76,11 +69,11 @@ p {
 }
 
 a {
-  color: $blue;
+  color: #ffffff;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: #ffffff;
   }
 }
 
@@ -108,7 +101,28 @@ ul ul, ol ul {
 em, i {
   font-style: italic;
 }
+table {
+border-collapse: collapse;
+width: 100%;
+}
 
+table, th, td {
+border: 1px solid #ffffff;
+background-color:#000080;
+
+}
+
+td {
+vertical-align: middle; 
+padding: 10px;
+} 
+
+th {
+color: #3aff28;
+background: rgba(255, 0, 0, 0.2);
+height:50px;
+vertical-align: middle;
+}
 strong, b {
   font-weight: bold;
 }
@@ -130,11 +144,11 @@ img {
 // Specify the color of the selection
 ::-moz-selection {
   color: $black;
-  background: $lightGray;
+  background: #3aff28;
 }
 ::selection {
   color: $black;
-  background: $lightGray;
+  background: #3aff28;
 }
 
 // Nicolas Gallagher's micro clearfix hack
@@ -163,7 +177,7 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid #3aff28;
 
   @include mobile {
     text-align: center;
@@ -199,7 +213,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: #3aff28;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -232,7 +246,7 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: #3aff28;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
@@ -250,7 +264,7 @@ nav {
 
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid #3aff28;
 }
 
 .posts > .post:last-child {
@@ -261,9 +275,9 @@ nav {
 .post {
   blockquote {
     margin: 1.8em .8em;
-    border-left: 2px solid $gray;
+    border-left: 2px solid #3aff28;
     padding: 0.1em 1em;
-    color: $gray;
+    color: #3aff28;
     font-size: 22px;
     font-style: italic;
   }
@@ -282,7 +296,7 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  background-color: #3aff28;
 }
 
 footer {
